@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standings | FIFA World Cup Qatar 2022</title>
+    <meta name="description" content="View the final group standings and tournament rankings for the 2022 FIFA World Cup in Qatar.">
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Qatar 2022</a>
+                <button class="menu-toggle">☰</button>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="teams.html">Teams</a></li>
+                    <li><a href="fixtures.html">Fixtures</a></li>
+                    <li><a href="results.html">Results</a></li>
+                    <li><a href="standings.html" class="active">Standings</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main style=" background-image: linear-gradient(to bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);">
+        <section class="container">
+            <h2 class="animate__animated animate__pulse " style="text-align: center; margin: 2rem 0; font-size: 3rem; color: var(--primary-color);">Tournament Standings</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+                Final group stage standings from the 2022 FIFA World Cup in Qatar. The top two teams from each group advanced to the knockout stage.
+            </p>
+
+            <!-- Final Tournament Rankings -->
+            <div class="card winner-highlight" style="margin-bottom: 3rem;">
+                <div class="card-header">🏆 Final Tournament Rankings</div>
+                <div class="card-content">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+                        <div style="text-align: center;">
+                            <h3 style="color: #FFD700; margin-bottom: 0.5rem;">🥇 1st Place</h3>
+                            <span style="font-size: 1.5rem;">🇦🇷</span>
+                            <p><strong>Argentina</strong></p>
+                            <p><em>World Champions</em></p>
+                        </div>
+                        <div style="text-align: center;">
+                            <h3 style="color: #C0C0C0; margin-bottom: 0.5rem;">🥈 2nd Place</h3>
+                            <span style="font-size: 1.5rem;">🇫🇷</span>
+                            <p><strong>France</strong></p>
+                            <p><em>Runners-up</em></p>
+                        </div>
+                        <div style="text-align: center;">
+                            <h3 style="color: #CD7F32; margin-bottom: 0.5rem;">🥉 3rd Place</h3>
+                            <span style="font-size: 1.5rem;">🇭🇷</span>
+                            <p><strong>Croatia</strong></p>
+                            <p><em>Third Place</em></p>
+                        </div>
+                        <div style="text-align: center;">
+                            <h3 style="margin-bottom: 0.5rem;">4th Place</h3>
+                            <span style="font-size: 1.5rem;"></span>
+                            <p><strong>Morocco</strong></p>
+                            <p><em>Fourth Place</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+
+            <!-- Group Standings -->
+            <h2 style="text-align: center; margin: 2rem 0; color: var(--primary-color);">Group Stage Standings</h2>
+            
+            <!-- Group A -->
+            <div class="group-table" data-group="A">
+                <div class="table-container">
+                    <div style="background: var(--primary-color); color: white; padding: 1rem; text-align: center; font-size: 1.2rem; font-weight: bold;">
+                        Group A
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Team</th>
+                                <th>MP</th>
+                                <th>W</th>
+                                <th>D</th>
+                                <th>L</th>
+                                <th>GF</th>
+                                <th>GA</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>1</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>Netherlands</strong></td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>5</td>
+                                <td>1</td>
+                                <td>+4</td>
+                                <td><strong>7</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>2</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>Senegal</strong></td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>5</td>
+                                <td>4</td>
+                                <td>+1</td>
+                                <td><strong>6</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><span style="font-size: 1.2rem;"></span> Ecuador</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>4</td>
+                                <td>3</td>
+                                <td>+1</td>
+                                <td><strong>4</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><span style="font-size: 1.2rem;"></span> Qatar</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>7</td>
+                                <td>-6</td>
+                                <td><strong>0</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Group B -->
+            <div class="group-table" data-group="B">
+                <div class="table-container">
+                    <div style="background: var(--primary-color); color: white; padding: 1rem; text-align: center; font-size: 1.2rem; font-weight: bold;">
+                        Group B
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Team</th>
+                                <th>MP</th>
+                                <th>W</th>
+                                <th>D</th>
+                                <th>L</th>
+                                <th>GF</th>
+                                <th>GA</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>1</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>England</strong></td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>9</td>
+                                <td>2</td>
+                                <td>+7</td>
+                                <td><strong>7</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>2</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>USA</strong></td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>+1</td>
+                                <td><strong>5</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><span style="font-size: 1.2rem;"></span> Iran</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>2</td>
+                                <td>4</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td><strong>3</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><span style="font-size: 1.2rem;"></span> Wales</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>6</td>
+                                <td>-5</td>
+                                <td><strong>1</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Group C -->
+            <div class="group-table" data-group="C">
+                <div class="table-container">
+                    <div style="background: var(--primary-color); color: white; padding: 1rem; text-align: center; font-size: 1.2rem; font-weight: bold;">
+                        Group C
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Team</th>
+                                <th>MP</th>
+                                <th>W</th>
+                                <th>D</th>
+                                <th>L</th>
+                                <th>GF</th>
+                                <th>GA</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>1</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>Argentina</strong></td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>+3</td>
+                                <td><strong>6</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>2</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>Poland</strong></td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td><strong>4</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><span style="font-size: 1.2rem;"></span> Mexico</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>-1</td>
+                                <td><strong>4</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><span style="font-size: 1.2rem;"></span> Saudi Arabia</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>5</td>
+                                <td>-2</td>
+                                <td><strong>3</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Group D -->
+            <div class="group-table" data-group="D">
+                <div class="table-container">
+                    <div style="background: var(--primary-color); color: white; padding: 1rem; text-align: center; font-size: 1.2rem; font-weight: bold;">
+                        Group D
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Team</th>
+                                <th>MP</th>
+                                <th>W</th>
+                                <th>D</th>
+                                <th>L</th>
+                                <th>GF</th>
+                                <th>GA</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>1</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>France</strong></td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>6</td>
+                                <td>3</td>
+                                <td>+3</td>
+                                <td><strong>6</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>2</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>Australia</strong></td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>-1</td>
+                                <td><strong>6</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><span style="font-size: 1.2rem;"></span> Tunisia</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td><strong>4</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><span style="font-size: 1.2rem;"></span> Denmark</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>3</td>
+                                <td>-2</td>
+                                <td><strong>1</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Group E -->
+            <div class="group-table" data-group="E">
+                <div class="table-container">
+                    <div style="background: var(--primary-color); color: white; padding: 1rem; text-align: center; font-size: 1.2rem; font-weight: bold;">
+                        Group E
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Team</th>
+                                <th>MP</th>
+                                <th>W</th>
+                                <th>D</th>
+                                <th>L</th>
+                                <th>GF</th>
+                                <th>GA</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>1</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>Japan</strong></td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>4</td>
+                                <td>3</td>
+                                <td>+1</td>
+                                <td><strong>6</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>2</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>Spain</strong></td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>9</td>
+                                <td>3</td>
+                                <td>+6</td>
+                                <td><strong>4</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><span style="font-size: 1.2rem;"></span> Germany</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>6</td>
+                                <td>5</td>
+                                <td>+1</td>
+                                <td><strong>4</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><span style="font-size: 1.2rem;"></span> Costa Rica</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>11</td>
+                                <td>-8</td>
+                                <td><strong>3</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Group F -->
+            <div class="group-table" data-group="F">
+                <div class="table-container">
+                    <div style="background: var(--primary-color); color: white; padding: 1rem; text-align: center; font-size: 1.2rem; font-weight: bold;">
+                        Group F
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Team</th>
+                                <th>MP</th>
+                                <th>W</th>
+                                <th>D</th>
+                                <th>L</th>
+                                <th>GF</th>
+                                <th>GA</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>1</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>Morocco</strong></td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>4</td>
+                                <td>1</td>
+                                <td>+3</td>
+                                <td><strong>7</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>2</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>Croatia</strong></td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>4</td>
+                                <td>1</td>
+                                <td>+3</td>
+                                <td><strong>5</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><span style="font-size: 1.2rem;"></span> Belgium</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>-1</td>
+                                <td><strong>4</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><span style="font-size: 1.2rem;"></span> Canada</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>7</td>
+                                <td>-6</td>
+                                <td><strong>0</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Group G -->
+            <div class="group-table" data-group="G">
+                <div class="table-container">
+                    <div style="background: var(--primary-color); color: white; padding: 1rem; text-align: center; font-size: 1.2rem; font-weight: bold;">
+                        Group G
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Team</th>
+                                <th>MP</th>
+                                <th>W</th>
+                                <th>D</th>
+                                <th>L</th>
+                                <th>GF</th>
+                                <th>GA</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>1</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>Brazil</strong></td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>+2</td>
+                                <td><strong>6</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>2</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>Switzerland</strong></td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>4</td>
+                                <td>3</td>
+                                <td>+1</td>
+                                <td><strong>6</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><span style="font-size: 1.2rem;"></span> Cameroon</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>4</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td><strong>4</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><span style="font-size: 1.2rem;"></span> Serbia</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>8</td>
+                                <td>-3</td>
+                                <td><strong>2</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Group H -->
+            <div class="group-table" data-group="H">
+                <div class="table-container">
+                    <div style="background: var(--primary-color); color: white; padding: 1rem; text-align: center; font-size: 1.2rem; font-weight: bold;">
+                        Group H
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Team</th>
+                                <th>MP</th>
+                                <th>W</th>
+                                <th>D</th>
+                                <th>L</th>
+                                <th>GF</th>
+                                <th>GA</th>
+                                <th>GD</th>
+                                <th>Pts</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>1</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>Portugal</strong></td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>6</td>
+                                <td>4</td>
+                                <td>+2</td>
+                                <td><strong>6</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr style="background-color: #d4edda;">
+                                <td><strong>2</strong></td>
+                                <td><span style="font-size: 1.2rem;"></span> <strong>South Korea</strong></td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>4</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td><strong>4</strong></td>
+                                <td><em>Qualified</em></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><span style="font-size: 1.2rem;"></span> Uruguay</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td><strong>4</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><span style="font-size: 1.2rem;"></span> Ghana</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>7</td>
+                                <td>-2</td>
+                                <td><strong>3</strong></td>
+                                <td><em>Eliminated</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Tournament Statistics -->
+            <h2 style="text-align: center; margin: 3rem 0 2rem 0; color: white;">Tournament Statistics</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-header">🏆 Qualification Summary</div>
+                    <div class="card-content">
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 0.5rem;"><strong>16 teams</strong> qualified for Round of 16</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>8 teams</strong> reached Quarter-finals</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>4 teams</strong> reached Semi-finals</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>2 teams</strong> reached the Final</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">⚽ Group Stage Goals</div>
+                    <div class="card-content">
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 0.5rem;"><strong>120 goals</strong> scored in 48 group matches</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>2.5 goals</strong> per match average</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>Spain 7-0 Costa Rica</strong> - Biggest win</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>12 matches</strong> ended 0-0 or 1-0</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">🌟 Notable Achievements</div>
+                    <div class="card-content">
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 0.5rem;"><strong>Morocco</strong> - First African semi-finalist</li>
+                            <li style="margin-bottom: 0.5rem;">🇯<strong>Japan</strong> - Topped group with Spain & Germany</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>Australia</strong> - First Round of 16 since 2006</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>South Korea</strong> - Advanced from tough group</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">📊 Group Winners</div>
+                    <div class="card-content">
+                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                            <div>
+                                <strong>Group A:</strong>  Netherlands<br>
+                                <strong>Group B:</strong> 󠁧󠁢 England<br>
+                                <strong>Group C:</strong>  Argentina<br>
+                                <strong>Group D:</strong>  France
+                            </div>
+                            <div>
+                                <strong>Group E:</strong>  Japan<br>
+                                <strong>Group F:</strong>  Morocco<br>
+                                <strong>Group G:</strong>  Brazil<br>
+                                <strong>Group H:</strong>  Portugal
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Legend -->
+            <div class="card" style="margin-top: 2rem;">
+                <div class="card-header">📋 Table Legend</div>
+                <div class="card-content">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+                        <div>
+                            <h4>Abbreviations:</h4>
+                            <ul style="list-style: none; padding: 0;">
+                                <li><strong>MP:</strong> Matches Played</li>
+                                <li><strong>W:</strong> Wins</li>
+                                <li><strong>D:</strong> Draws</li>
+                                <li><strong>L:</strong> Losses</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Statistics:</h4>
+                            <ul style="list-style: none; padding: 0;">
+                                <li><strong>GF:</strong> Goals For</li>
+                                <li><strong>GA:</strong> Goals Against</li>
+                                <li><strong>GD:</strong> Goal Difference</li>
+                                <li><strong>Pts:</strong> Points</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Colors:</h4>
+                            <ul style="list-style: none; padding: 0;">
+                                <li style="background-color: #d4edda; padding: 0.25rem; border-radius: 3px; margin-bottom: 0.25rem;"><strong>Green:</strong> Qualified for Round of 16</li>
+                                <li style="background-color: #f8f9fa; padding: 0.25rem; border-radius: 3px;"><strong>White:</strong> Eliminated</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FIFA World Cup Qatar 2022 Website</p>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="java.js"></script>
+    <script>
+        // Group filter functionality
+        document.getElementById('group-filter').addEventListener('change', function() {
+            const selectedGroup = this.value;
+            const groupTables = document.querySelectorAll('.group-table');
+            
+            groupTables.forEach(table => {
+                if (selectedGroup === 'all' || table.getAttribute('data-group') === selectedGroup) {
+                    table.style.display = 'block';
+                } else {
+                    table.style.display = 'none';
+                }
+            });
+        });
+
+        // Add fade-in animation on load
+        document.addEventListener('DOMContentLoaded', function() {
+            const tables = document.querySelectorAll('.group-table');
+            tables.forEach((table, index) => {
+                table.style.animationDelay = `${index * 0.1}s`;
+                table.classList.add('fade-in');
+            });
+        });
+    </script>
+</body>
+</html>
